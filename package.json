@@ -1,0 +1,18 @@
+{
+  "name": "hamilton-film-portfolio",
+  "version": "1.0.0",
+  "description": "austin-project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "af",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2"
+  }
+}
