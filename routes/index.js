@@ -11,6 +11,10 @@ module.exports = function(app) {
     res.render('pages/team');
   });
 
+ app.get('/about', function(req, res) {
+    res.render('pages/about');
+  });
+
  app.get('/contact', function(req, res) {
    res.render('pages/contact');
  });

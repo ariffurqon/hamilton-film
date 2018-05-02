@@ -1,1 +1,59 @@
-contact.ejs
+<section id="contact" class="contact text-center">
+    <div class="container">
+        <div class="title">
+            <h2 class="text-uppercase">Get In Touch</h2>
+        </div>
+        <div class="contact-content">
+            <div class="row">
+                <div class="col-lg col-sm-4">
+                    <div class="email">
+                        <i class="manisa-envelope"></i>
+                        <span>manisa@email.com</span>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-4">
+                    <div class="phone">
+                        <i class="manisa-call-end"></i>
+                        <span>+123 456 7899</span>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-4">
+                    <div class="address">
+                        <i class="manisa-pointer"></i>
+                        <span>123 Street Name, City , 32008</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="contact-section">
+            <div class="contact-map maps" id="overlay">
+                <div class="google-wrapper">
+                    <div id="google-map"> <!-- Your Can Add Your Location Just Go To Google Map And Emped Map -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.37432199015!2d-122.401971184896!3d37.781266519559466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807e47a6df85%3A0xcb0f36149fd939be!2s399+4th+St%2C+San+Francisco%2C+CA+94107!5e0!3m2!1sen!2sus!4v1525157579277" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="container">
+                        <div class="contact-form">
+                            <form id="my_form" method="post" onsubmit="submitForm(); return false;">
+                                <div class="form-group">
+                                    <input id="name" class="form-control" type="text" name="name" placeholder="Your Name" required/>
+                                </div>
+                                <div class="form-group">
+                                    <input id="email" class="form-control" type="email" name="email" placeholder="E-mail" required/>
+                                </div>
+                                <div class="form-group">
+                                    <input id="phone" class="form-control" type="phone" name="phone" placeholder="Your Phone"/>
+                                </div>
+                                <div class="message">
+                                    <div class="form-group">
+                                        <textarea id="msg" class="form-control" placeholder="Write Your message here ..." required></textarea>
+                                    </div>
+                                    <p><input id="btn" class="btn" type="submit" value="Send Message" /><span id="status"></span></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

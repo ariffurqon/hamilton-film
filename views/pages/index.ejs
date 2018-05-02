@@ -1,1 +1,105 @@
-index.ejs
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+       <% include ../partials/head %>
+ 
+   
+    </head>
+    <body>
+        
+        
+        
+        <!-- Start Social Media -->
+        
+        <div class="social-media d-none d-md-block">
+            <a href="https://www.facebook.com/" target="_blank"><i class="manisa-facebook"></i></a> <!-- You Can Edit the link here -->
+            <a href="https://www.twitter.com/" target="_blank"><i class="manisa-twitter"></i></a> <!-- You Can Edit the link here -->
+            <a href="https://www.tumblr.com/" target="_blank"><i class="manisa-tumblr"></i></a> <!-- You Can Edit the link here -->
+            <a href="https://www.youtube.com/" target="_blank"><i class="manisa-youtube"></i></a> <!-- You Can Edit the link here -->
+            <a href="https://www.imdb.com/name/nm8615033/" target="_blank"><i class="manisa-dribbble"></i></a> <!-- You Can Edit the link here -->
+        </div>
+        
+        <!-- End Social Media -->
+        
+        <!-- Start Navbar -->
+
+        <% include ../partials/nav %>
+        
+        <!-- End Navbar -->
+ 
+        
+        <!-- Start Header -->
+        
+        <% include ../partials/landing-page %>
+        
+        <!-- End Header -->
+        
+        
+        <!-- Start About -->
+       
+        <% include ../pages/about %>
+
+        <!-- End About -->
+        
+       
+        
+        <!-- Start Portfolio  -->
+        
+        <% include ../pages/films %>
+
+        <!-- End Portfolio -->
+        
+        
+        <!-- Start Tesim -->
+        
+        
+        <!-- End Tesim -->
+        
+        
+       <% include ../pages/team %>
+              
+        
+        <!-- Start Contact -->
+        
+        <% include ../pages/contact %>
+        
+        <!-- End Contact -->
+        
+        
+        <!-- Start Footer -->
+        
+        <% include ../partials/footer %>
+        
+        <!-- End Footer -->
+        
+        <!-- Start SrollTop -->
+        
+        <div class="scrolltop">
+            <i class="fa fa-angle-double-up"></i>
+        </div>
+        
+        <!-- End SrollTop -->
+        
+        <!-- Start Loading -->
+        
+        <div class="loading-overlay">
+            <div class="sk-cube-grid">
+              <div class="sk-cube sk-cube1"></div>
+              <div class="sk-cube sk-cube2"></div>
+              <div class="sk-cube sk-cube3"></div>
+              <div class="sk-cube sk-cube4"></div>
+              <div class="sk-cube sk-cube5"></div>
+              <div class="sk-cube sk-cube6"></div>
+              <div class="sk-cube sk-cube7"></div>
+              <div class="sk-cube sk-cube8"></div>
+              <div class="sk-cube sk-cube9"></div>
+            </div>
+        </div>
+        
+        <!-- End Loading -->
+        
+        <% include ../partials/scripts %>
+
+    </body>
+</html>
