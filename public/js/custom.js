@@ -32,15 +32,15 @@ $(document).ready(function () {
         progressBar = $(".progress-bar"),
         scrolltop = $('.scrolltop'),
         colors   = $('.color-option .colors li'),
-        dl   = $('.color-option .dl li'),
+        dl   = $('.color-option .dl li');
         // Typed Plugin
-        typed = new Typed('.type', {
-            strings: ["Watch the new teaser trailer from", "the official selection of the RoofTop Films Festival", "Cucumber In My Fridge"], /* Here Type Your Title */
-            typeSpeed: 100,
-            loop: true,
-            backDelay: 1200,
-            backSpeed: 20
-        });
+        // typed = new Typed('.type', {
+        //     strings: [''], /* Here Type Your Title */
+        //     typeSpeed: 100,
+        //     loop: true,
+        //     backDelay: 1200,
+        //     backSpeed: 20
+        // });
     
     // Horizontal Navbar
     

@@ -1,8 +1,8 @@
-body {
+/*body {
   font-family: 'Merriweather', serif;
   color: white;
 }
-
+*/
 h1, p {
   text-align: center;
 }
@@ -22,5 +22,13 @@ video#bgvid {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+}
+
+.container {
+  background-color: #F8F8FF;
+}
+
+fa {
+  border-radius: 50%;
 }
 

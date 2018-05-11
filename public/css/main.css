@@ -82,8 +82,7 @@ a:focus,
 a {
   text-decoration: none; }
 
-body {
-  font-family: 'Poppins', sans-serif;
+/*body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
@@ -91,10 +90,10 @@ body {
   font-smoothing: antialiased;
   overflow: hidden;
   overflow-x: hidden !important; }
-
-.pattaya {
+*/
+/*.pattaya {
   font-family: 'Pattaya', sans-serif; }
-
+*/
 .overlay {
   position: relative;
   width: 100%;
@@ -418,12 +417,12 @@ a .bg_logo_light {
 
 ===========================================================*/
 .about .about-img {
-  background-image: url(http://via.placeholder.com/2500x1500);
+  background-image: url(/public/images/austin.jpeg);
   /* Here You can edit your personal image */
   height: 350px;
   width: 100%;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: 650px;
   background-repeat: no-repeat;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
