@@ -37,12 +37,13 @@
   -o-transition: all 320ms ease-in-out;
   transition: all 320ms ease-in-out; }
   .navbar .bg_logo {
-    width: 150px;
-    max-width: 100%;
+    width: 100px;
+    max-width: 100px;
     position: absolute;
-    top: 19%;
-    right: 8%;
-    background-size: 150px; }
+    top: 20%;
+    right: 80px;
+    background-size: 150px; 
+  }
   .navbar .collapse {
     position: absolute;
     top: 60%;
@@ -396,7 +397,7 @@
   transform: rotate(-45deg); }
 
 .navbar a .bg_logo {
-  background-image: url(http://via.placeholder.com/230x58); }
+  background-image: url(/public/images/logo.png); }
 
 .option-box {
   top: 170px; }

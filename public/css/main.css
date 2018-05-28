@@ -239,20 +239,20 @@ section {
   transform: rotate(-45deg); }
 
 a .bg_logo {
-  background-image: url(http://via.placeholder.com/231x58);
+  background-image: url(/public/images/logo.png);
   /* Here The Light Logo */
   background-size: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  width: 142px;
-  height: 35px;
+  width: 100px;
+  height: 150px;
   display: inline-block; }
 a .bg_logo_dark {
-  background-image: url(http://via.placeholder.com/231x58);
+  background-image: url(/public/images/logo.png);
   /* Here The Dark Logo */
   background-repeat: no-repeat; }
 a .bg_logo_light {
-  background-image: url(http://via.placeholder.com/231x58);
+  background-image: url(/public/images/logo.png);
   /* Here The Light Logo */
   background-repeat: no-repeat; }
 
@@ -279,6 +279,7 @@ a .bg_logo_light {
     z-index: 2; }
     .header .title h1 {
       color: #fff;
+      font-family: cinzel;
       font-size: 4.3rem; }
   .header .down a i {
     text-decoration: none;
@@ -291,6 +292,11 @@ a .bg_logo_light {
     font-size: 35px;
     cursor: pointer;
     animation: translate 2.5s ease-in-out infinite; }
+@font-face {
+    font-family: Cinzel;
+    src: url(/public/images/Cinzel-Bold.otf);
+    }
+
 @keyframes translate {
   0% {
     opacity: 0.9; }
@@ -419,11 +425,12 @@ a .bg_logo_light {
 .about .about-img {
   background-image: url(/public/images/austin.jpeg);
   /* Here You can edit your personal image */
-  height: 350px;
+  height: 250px;
   width: 100%;
   background-attachment: fixed;
   background-size: 650px;
   background-repeat: no-repeat;
+  background-position: initial!important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;

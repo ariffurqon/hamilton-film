@@ -57,7 +57,7 @@
     /* Start About Me*/
     
     .about .about-img {
-        background-attachment: inherit;
+        background-attachment: fixed;
         background-size: cover;
         background-position: center;
         margin-bottom: 30px;

@@ -9,7 +9,7 @@ h1, p {
 
 video#bgvid {
   padding: 0px;
-  position: fixed;
+  position: relative;
   top: 50%;
   left: 50%;
   overflow: hidden;
@@ -31,4 +31,19 @@ video#bgvid {
 fa {
   border-radius: 50%;
 }
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 

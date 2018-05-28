@@ -18,7 +18,7 @@ footer .social-media-footer a,
   border: 1px solid red; }
 
 .content-post .mycontent .quote-content {
-  border-left: 5px solid grey; }
+  border-left: none; }
 
 footer .social-media-footer a:hover,
 .contact .contact-map form .btn,
