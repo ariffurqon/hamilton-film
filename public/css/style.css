@@ -9,7 +9,7 @@ h1, p {
 
 video#bgvid {
   padding: 0px;
-  position: relative;
+  position: fixed;
   top: 50%;
   left: 50%;
   overflow: hidden;
